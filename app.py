@@ -235,7 +235,7 @@ st.header("Daily Attendance Summary")
 selected_date = st.date_input(
     "Select attendance date",
     value=date.today(),
-
+)
 summary = get_daily_summary(selected_date),
 
 col1, col2, col3, col4 = st.columns(4),
